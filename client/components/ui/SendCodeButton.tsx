@@ -8,7 +8,7 @@ const SendCodeButton = () => {
   return (
     <View style={tw`mt-135`}>
       <TouchableOpacity
-        onPress={() => router.push("/verification-code-screen")}
+        onPress={() => router.push("/verification-code")}
         style={tw`ml-8 flex justify-center items-center bg-[#000000] w-95 h-18 rounded-xl`}
       >
         <Text style={tw`text-[#FFFFFF] font-medium text-xl`}>Send Code</Text>

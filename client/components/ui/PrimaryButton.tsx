@@ -8,7 +8,7 @@ const ButtonUI = () => {
   return (
     <View style={tw`mt-8`}>
       <TouchableOpacity
-        onPress={() => router.push("/scan-results-screen")}
+        onPress={() => router.push("/scan-results")}
         style={tw`flex justify-center items-center bg-[#000000] w-95 h-18 rounded-xl`}
       >
         <Text style={tw`text-[#FFFFFF] font-medium text-xl`}>Continue</Text>
